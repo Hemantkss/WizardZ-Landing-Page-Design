@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Neue;
+  src: url(./3856NeueMachina.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* NAVBAR CSS */
+section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+
+nav h1 i {
+  display: inline-block;
+  rotate: 10deg;
+}
+
+nav h1 {
+  font-size: 25px;
+}
+nav h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 2px solid black;
+  background-color: white;
+}
+
+/* CENTER CSS */
+
+.center {
+  height: 80%;
+  width: 100%;
+  padding: 50px 70px;
+  display: flex;
+}
+
+.center-part1 {
+  height: 100%;
+  width: 40%;
+}
+
+.center-part1 h1 {
+  line-height: 55px;
+  font-size: 50px;
+  font-family: Neue;
+}
+.center-part1 p {
+  font-size: 18px;
+  width: 95%;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.center-part1 button {
+  color: white;
+  padding: 15px 30px;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.center-part2 {
+  height: 100%;
+  width: 60%;
+  position: relative;
+}
+
+.center-part2 img {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+/* BOTTOM SECTION LOGOS CSS*/
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px;
+}
+
+.a {
+  height: 80px;
+}
+.b {
+  height: 120px;
+}
+.c {
+  height: 40px;
+}
+.d {
+  height: 45px;
+}
+.e {
+  height: 160px;
+}
+
+/* SECTION 2 */
+.section2 {
+  margin-top: 150px;
+}
+
+.section2 .services {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.services h3 {
+  background-color: #9ae975;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-family: Neue;
+}
+
+.services p {
+  width: 40%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* CONTAINERS */
+
+.container {
+  height: 80%;
+  width: 100%;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.elem {
+  flex-shrink: 0;
+  height: 250px;
+  width: 47%;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0px 11px 0px black;
+  display: flex;
+}
+
+.elem-part1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.elem-part1 h2 {
+  font-size: 30px;
+  background-color: #9ae975;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 5px;
+  width: 90%;
+}
+.elem-part1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+}
+.elem-part1 h4 i {
+  background-color: black;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  rotate: 320deg;
+}
+.elem-part2 {
+  height: 100%;
+  width: 50%;
+}
+.elem-part2 img {
+  height: 100%;
+}
+.black {
+  background-color: #9ae975;
+  color: white;
+}
+
+/* SECTION 3 */
+
+.section3 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 70px;
+}
+
+.center-section3 {
+  margin-top: 200px;
+  height: 50%;
+  width: 100%;
+  background-color: rgb(242, 245, 246);
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.center-part3 {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+.center-part3 h1 {
+  line-height: 55px;
+  font-size: 30px;
+  font-family: Neue;
+}
+
+.center-part3 p {
+  font-size: 18px;
+  width: 95%;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center-part3 button {
+  color: white;
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.center-section4{
+height: 100%;
+width: 50%;
+position: relative;
+}
+
+.center-section4 img{
+  position: absolute;
+  right: 10%;
+  height: 100%;
+}
+
+/* EMPTY SECTION */
+
+.empty-section{
+  height: 100%;
+  width: 100%;
+  padding: 50px ;
+
+}
+
